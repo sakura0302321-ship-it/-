@@ -233,7 +233,7 @@ with col_settings:
     st.markdown("---")
     
     # 生成ボタン
-    generate_btn = st.button("🚀 プロ品質で問題を生成する", type="primary")
+    generate_btn = st.button("プロ品質で問題を生成する", type="primary")
 
     if generate_btn:
         if not vision_inputs:
@@ -327,3 +327,4 @@ if "exam_result" in st.session_state:
                     st.error(f"PDF作成中にエラーが発生しました: {e}")
 
                     st.warning("テキスト形式での保存をお試しください。")
+
