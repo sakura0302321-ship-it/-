@@ -145,7 +145,7 @@ class RobustExamPDF(FPDF):
 
 #  メイン
 
-st.title("類似問題作成システム")
+st.title("類似問題作成ツール")
 
 # 1. 環境チェック
 POPPLER_PATH = get_robust_poppler_path()
@@ -325,4 +325,5 @@ if "exam_result" in st.session_state:
                     )
                 except Exception as e:
                     st.error(f"PDF作成中にエラーが発生しました: {e}")
+
                     st.warning("テキスト形式での保存をお試しください。")
