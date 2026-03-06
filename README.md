@@ -1,4 +1,5 @@
-類似問題作成ツール
+類似問題作成ツール<img width="1306" height="609" alt="スクリーンショット 2026-03-06 113202" src="https://github.com/user-attachments/assets/a5f74820-a7d4-4b5f-b23e-14d25487910b" />
+
 
 概要：
 アップロードされた試験問題のPDFや画像をAI（Gemini 1.5 Pro/Flash）が解析し、その論理構造や図表配置を維持したまま、トピックを刷新した高品質な類似問題を作成するツールです。
